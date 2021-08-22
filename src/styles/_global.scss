@@ -1,0 +1,75 @@
+@import "./variables";
+// html {
+//     box-sizing: border-box;
+// }
+
+// *,
+// *::before,
+// *::after {
+//     box-sizing: inherit;
+// }
+
+// body {
+//     font-size: 16px;
+//     line-height: 26px;
+//     overflow-x: hidden;
+// }
+
+// a {
+//     display: inline-block;
+//     text-decoration: none;
+//     color: #000;
+// }
+
+// ul,
+// li {
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+// }
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    font-family: "Proxima Nova", Roboto, system-ui, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: $black;
+}
+
+a,
+span,
+p,
+b,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: $black;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
