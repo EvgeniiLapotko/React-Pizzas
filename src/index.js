@@ -10,7 +10,7 @@ import "./styles/style.scss";
 import App from "./App";
 
 render(
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <Provider store={store}>
             <App />
         </Provider>

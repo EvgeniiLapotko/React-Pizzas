@@ -10,15 +10,8 @@ const App = () => {
             <Header />
 
             <div className="content">
-                <Route
-                    exact
-                    path={process.env.PUBLIC_URL + "/"}
-                    component={Home}
-                />
-                <Route
-                    path={process.env.PUBLIC_URL + "/cart"}
-                    component={Cart}
-                />
+                <Route exact path="/" component={Home} />
+                <Route path="/cart" component={Cart} />
             </div>
         </div>
     );
